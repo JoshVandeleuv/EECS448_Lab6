@@ -3,17 +3,19 @@
 
 
 #Add needed Test.o
-prog: main.o
-	g++ -g -Wall -std=c++11 main.o LinkedListOfInts.o -o prog
+prog: main.o testClass.o
+	g++ -g -Wall -std=c++11 main.o LinkedListOfInts.o testClass.o -o prog
 
 
-main.o: main.cpp 
+main.o: main.cpp
 	g++ -g -Wall -std=c++11 -c main.cpp
 
 
 #Add needed Test.o recipe and compiler command
+testClass.o: testClass.cpp testClass.h
+	g++ -g -Wall -std=c++11 -c testClass.cpp
 
 
 #DON'T delete LinkedList.o!
 clean:
-	rm main.o *.*~ prog
+	rm main.o testClass.o *.*~ prog
