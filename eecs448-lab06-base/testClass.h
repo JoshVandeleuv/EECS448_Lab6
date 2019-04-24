@@ -12,9 +12,14 @@
 class testClass
 {
 public:
-testClass();
+testClass(LinkedListOfInts);
 void runTests();
+void runTest_addFront();
+void runTest_removeFront();
+void runTest_addBack();
 
+private:
+LinkedListOfInts theList;
 
 };
 

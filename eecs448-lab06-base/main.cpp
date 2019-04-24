@@ -19,7 +19,7 @@ int main(int argc, char** argv)
 	//myTester.runTests();
 
 	std::cout << "Running...\n";
-	testClass labTester;
+	testClass labTester(testableList);
 	labTester.runTests();
 	std::cout << "And we're done.\nGoodbye.\n";
 
