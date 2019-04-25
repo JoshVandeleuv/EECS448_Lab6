@@ -12,14 +12,15 @@
 class testClass
 {
 public:
-testClass(LinkedListOfInts);
+testClass();
 void runTests();
 void runTest_addFront();
-void runTest_removeFront();
+void runTest_isEmpty();
 void runTest_addBack();
-
-private:
-LinkedListOfInts theList;
+void runTest_removeFront();
+void runTest_removeBack();
+void runTest_size();
+void runTest_search();
 
 };
 

@@ -1,0 +1,9 @@
+List of bugs by method:
+isEmpty() - returns true even if the list is not empty
+size() - No bugs found
+search() - No bugs found
+toVector() - It is given that this method has no bugs
+addBack() - Creates the reverse of the list it should
+addFront() - No bugs found
+removeBack() - Has no effect on the list
+removeFront() - Has no effect on the list
