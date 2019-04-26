@@ -1,9 +1,10 @@
 List of bugs by method:
 isEmpty() - returns true even if the list is not empty
+          - returns false in a list of negative numbers
 size() - No bugs found
 search() - No bugs found
 toVector() - It is given that this method has no bugs
-addBack() - Creates the reverse of the list it should
+addBack() - Functions identical to addFront
 addFront() - No bugs found
 removeBack() - Has no effect on the list
 removeFront() - Has no effect on the list

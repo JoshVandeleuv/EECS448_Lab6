@@ -21,6 +21,9 @@ void runTest_removeFront();
 void runTest_removeBack();
 void runTest_size();
 void runTest_search();
+void runTest_negative();
+void runTest_largeNumbers();
+void runTest_mixedAdds();
 
 };
 
